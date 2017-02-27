@@ -50,38 +50,6 @@ On the right edge of the display is the list of mission commands for this missio
 
 Click on a mission command to show its editor which allows you to specify the values for the command. You can also change the type of the command by clicking on the command name, "Waypoint" in this example. This allows you to pick from the set up available commands to build your mission. To the right of the command name is a menu you can open by clicking. This menu provides you access to additional options such as Insert and Delete.
 
-The default mission command is "Waypoint". The available commands, by category, are:
-
-Basic:
-* Waypoint
-* Land
-* Takeoff
-* Home Position
-
-Loiter:
-* Loiter
-* Loiter (time)
-* Loiter (altitude)
-
-VTOL:
-* VTOL takeoff and transition
-* VTOL transition and land
-* VTOL transition
-
-Advanced:
-* Jump to item
-* Set servo
-* Configure mount
-* Control mount
-
-Flight Control:
-* Change speed
-* Land start
-
-Camera:
-* Camera control
-* Camera trigger distance
-
 ### Planned Home Position
 A mission always has a "Planned Home Position" associated with it. This is used to simulate the home position of the vehicle such that waypoint lines can be drawn correctly to the first actual waypoint. Keep in mind that the actual home position for a mission is set by the vehicle and may differ from the "planned" home position if you don't begin your mission with the vehicle in the same location as "planned".
 
