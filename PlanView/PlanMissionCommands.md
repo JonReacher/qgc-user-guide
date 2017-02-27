@@ -32,3 +32,11 @@ Flight Control:
 Camera:
 * Camera control
 * Camera trigger distance
+
+
+## Basic Commands
+### Waypoint
+The Waypoint command directs the vehicle in a straight line to the specified location at the specified altitude.
+
+### Land
+The Land command will attempt to land the vehicle at the specified location at the specified altitude. The success of the landing is dependent upon the landing parameters being set correctly for the vehicle being used. 
