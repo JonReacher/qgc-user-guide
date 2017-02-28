@@ -39,4 +39,10 @@ Camera:
 The Waypoint command directs the vehicle in a straight line to the specified location at the specified altitude.
 
 ### Land
-The Land command will attempt to land the vehicle at the specified location at the specified altitude. The success of the landing is dependent upon the landing parameters being set correctly for the vehicle being used. 
+The Land command will attempt to land the vehicle at the specified location at the specified altitude. The success of the landing is dependent upon the landing parameters being set correctly for the vehicle being used. The most important settings include:
+* FW_LND_AIRSPD_SC
+* FW_LND_ANG
+* FW_LND_FLALT
+
+### Takeoff
+
